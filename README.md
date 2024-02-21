@@ -1,3 +1,33 @@
-## Automated Driver Drowsiness Control Technology Using Artificial Intelligence based Decision Support System
 
-The main purpose of this project is to develop the methodology to detect and predict driver drowsiness at the early stages using physical and physiological variables. A feasibility test is conducted to evaluate the accuracy and performance of the proposed methodology. AI techniques and Google Vision API for Android are utilized to analyze data for monitoring, detecting, predicting and controlling driver drowsiness. Finally, the android application is prepared end-to-end for the user and applied for data collection in the future research experiments.
+# Automated Driver Drowsiness Control
+
+Automated Driver Drowsiness Control is an Android application designed to detect drowsiness in drivers and alert them to ensure road safety.
+
+## Features
+
+- Drowsiness detection using facial recognition.
+- Real-time monitoring of driver's face.
+- Alerts to keep the driver awake.
+- Integration with Google's Mobile Vision API for face detection.
+
+## Installation
+
+To run this application:
+
+1. Clone this repository.
+2. Open the project in Android Studio.
+3. Build and run the project on your Android device or emulator.
+
+## Usage
+
+- Launch the application on your Android device.
+- The application monitors the driver's face for signs of drowsiness.
+- If drowsiness is detected, the application alerts the driver to stay awake.
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
