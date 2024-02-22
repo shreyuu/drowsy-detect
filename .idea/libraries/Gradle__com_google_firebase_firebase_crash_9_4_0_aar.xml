@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-crash:9.4.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/667a8c2ced2a7cafa4e311f567b45cd4/transformed/jetified-firebase-crash-9.4.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/667a8c2ced2a7cafa4e311f567b45cd4/transformed/jetified-firebase-crash-9.4.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/667a8c2ced2a7cafa4e311f567b45cd4/transformed/jetified-firebase-crash-9.4.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/8d1cba7740ea73285c95c910942a199b/transformed/jetified-firebase-crash-9.4.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/8d1cba7740ea73285c95c910942a199b/transformed/jetified-firebase-crash-9.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/8d1cba7740ea73285c95c910942a199b/transformed/jetified-firebase-crash-9.4.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

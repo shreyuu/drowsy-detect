@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-appinvite:9.4.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f5b9ba108c615f8e1e02f8f63df7f28d/transformed/jetified-play-services-appinvite-9.4.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f5b9ba108c615f8e1e02f8f63df7f28d/transformed/jetified-play-services-appinvite-9.4.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f5b9ba108c615f8e1e02f8f63df7f28d/transformed/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/88274c235dfed8c948cbcf8efd00b7a6/transformed/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/88274c235dfed8c948cbcf8efd00b7a6/transformed/jetified-play-services-appinvite-9.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/88274c235dfed8c948cbcf8efd00b7a6/transformed/jetified-play-services-appinvite-9.4.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
