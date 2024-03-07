@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: androidx.palette:palette:1.0.0-rc01@aar">
+  <library name="Gradle: androidx.palette:palette:1.0.0-rc01@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/ec8074e32161671767927ec610e07e28/transformed/palette-1.0.0-rc01/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/ec8074e32161671767927ec610e07e28/transformed/palette-1.0.0-rc01/jars/classes.jar!/" />

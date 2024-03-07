@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: androidx.mediarouter:mediarouter:1.0.0-alpha5@aar">
+  <library name="Gradle: androidx.mediarouter:mediarouter:1.0.0-alpha5@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/fa83e3997d401a45329d2e90737abbf2/transformed/mediarouter-1.0.0-alpha5/annotations.zip!/" />
     </ANNOTATIONS>

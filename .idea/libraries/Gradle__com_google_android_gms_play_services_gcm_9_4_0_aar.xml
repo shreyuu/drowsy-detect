@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.google.android.gms:play-services-gcm:9.4.0@aar">
+  <library name="Gradle: com.google.android.gms:play-services-gcm:9.4.0@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/b6681f0edd19d3613aac4474e5a0eb38/transformed/jetified-play-services-gcm-9.4.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/b6681f0edd19d3613aac4474e5a0eb38/transformed/jetified-play-services-gcm-9.4.0/jars/classes.jar!/" />

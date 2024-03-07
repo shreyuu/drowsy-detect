@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.google.android.gms:play-services-clearcut:9.4.0@aar">
+  <library name="Gradle: com.google.android.gms:play-services-clearcut:9.4.0@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/30056a7e7eea5d887220d0858e6a1894/transformed/jetified-play-services-clearcut-9.4.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/30056a7e7eea5d887220d0858e6a1894/transformed/jetified-play-services-clearcut-9.4.0/AndroidManifest.xml" />

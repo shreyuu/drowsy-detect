@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.google.android.gms:play-services-cast-framework:9.4.0@aar">
+  <library name="Gradle: com.google.android.gms:play-services-cast-framework:9.4.0@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/e5e3ef1c18948baa25bdb5787a07e016/transformed/jetified-play-services-cast-framework-9.4.0/res" />
       <root url="jar://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/e5e3ef1c18948baa25bdb5787a07e016/transformed/jetified-play-services-cast-framework-9.4.0/jars/classes.jar!/" />

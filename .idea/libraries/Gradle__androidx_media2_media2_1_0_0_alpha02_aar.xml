@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: androidx.media2:media2:1.0.0-alpha02@aar">
+  <library name="Gradle: androidx.media2:media2:1.0.0-alpha02@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/920b5a16f9cf7fcf163140d965989425/transformed/jetified-media2-1.0.0-alpha02/annotations.zip!/" />
     </ANNOTATIONS>

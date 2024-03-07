@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.google.android.gms:play-services-appinvite:9.4.0@aar">
+  <library name="Gradle: com.google.android.gms:play-services-appinvite:9.4.0@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/88274c235dfed8c948cbcf8efd00b7a6/transformed/jetified-play-services-appinvite-9.4.0/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/88274c235dfed8c948cbcf8efd00b7a6/transformed/jetified-play-services-appinvite-9.4.0/res" />

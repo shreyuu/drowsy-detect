@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.google.android.gms:play-services-wallet:9.4.0@aar">
+  <library name="Gradle: com.google.android.gms:play-services-wallet:9.4.0@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/cab4915c702128cfba060c8d98bece9a/transformed/jetified-play-services-wallet-9.4.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/cab4915c702128cfba060c8d98bece9a/transformed/jetified-play-services-wallet-9.4.0/res" />
