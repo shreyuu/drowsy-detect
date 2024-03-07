@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class NetworkHandler {
 
-    private static final String BASE_URL = "http://your_flask_server_ip:5000"; // Change this to your Flask server's IP address
+    private static final String BASE_URL = "https://sendmail.pythonanywhere.com/s"; // Change this to your Flask server's IP address
 
     private OkHttpClient client = new OkHttpClient();
 
