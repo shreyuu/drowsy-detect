@@ -14,11 +14,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Start the monitoring process"
+        android:text="@string/start_the_monitoring_process"
         android:id="@+id/textView2"
         android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/emailEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="@string/enter_your_email"-->
+<!--        android:paddingTop="20dp"-->
+<!--        android:layout_below="@+id/textView2"-->
+<!--        android:inputType="textEmailAddress"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/agree"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/agree"-->
+<!--        android:layout_below="@id/emailEditText"-->
+<!--        android:layout_marginTop="16dp"/>-->
+
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,7 +45,6 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/time_senstivity"
         android:id="@+id/textView16"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <SeekBar
@@ -36,7 +54,6 @@
         android:max="8"
         android:progress="4"
         android:layout_below="@+id/textView16"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <TextView
@@ -46,7 +63,6 @@
         android:text="@string/low"
         android:id="@+id/textView17"
         android:layout_below="@+id/seekBar2"
-        android:layout_alignRight="@+id/seekBar2"
         android:layout_alignEnd="@+id/seekBar2" />
 
     <TextView
@@ -55,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView17"
         android:layout_centerHorizontal="true"
-        android:text="Medium"
+        android:text="@string/medium"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <TextView
@@ -65,7 +81,6 @@
         android:text="@string/high"
         android:id="@+id/textView19"
         android:layout_below="@+id/seekBar2"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <TextView
@@ -74,7 +89,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView19"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_marginTop="21dp"
         android:text="@string/alarm_will_invoke_after"
         android:textAppearance="?android:attr/textAppearanceSmall" />
@@ -85,8 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView15"
         android:layout_toEndOf="@+id/textView15"
-        android:layout_toRightOf="@+id/textView15"
-        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
         android:text="Small Text"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="#7C4DFF" />
@@ -97,7 +110,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_marginTop="40dp"
         app:button_icon="@drawable/logo_main"
         app:button_icon_height="45dp"
@@ -105,6 +117,6 @@
         app:hide_text="Start"
         app:hide_text_color="@android:color/black"
         app:hide_text_size="16sp"
-        app:magic_button_size="80dp"></br.com.bloder.magic.view.MagicButton>
+        app:magic_button_size="80dp" />
 
 </RelativeLayout>
