@@ -70,10 +70,10 @@ public class MainActivity extends FragmentActivity implements NavigationView.OnN
         EmailData emailData = new EmailData(
                 "riteshmahale15@gmail.com",
                 "Drowsiness Alert",
-                "Alert message here..."
+                "Your Driver is Sleeping"
         );
 
-        sendEmail(emailData);
+//        sendEmail(emailData);
 
     }
     @Override
@@ -90,7 +90,7 @@ public class MainActivity extends FragmentActivity implements NavigationView.OnN
         RequestBody body = RequestBody.create(json, mediaType);
 
         Request request = new Request.Builder()
-                .url("https://sendmail.pythonanywhere.com/send_mail")
+                .url("https://sendmail.pythonanywhere.com/send_email")
                 .post(body)
                 .build();
 

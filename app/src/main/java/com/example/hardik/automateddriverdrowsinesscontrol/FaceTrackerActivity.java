@@ -38,11 +38,24 @@ import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.face.Face;
 import com.google.android.gms.vision.face.FaceDetector;
 import com.google.android.material.snackbar.Snackbar;
+import com.google.gson.Gson;
+
+import org.json.JSONObject;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
+
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
 public class FaceTrackerActivity extends AppCompatActivity {
     private static final String TAG = "FaceTracker";
@@ -367,7 +380,16 @@ public class FaceTrackerActivity extends AppCompatActivity {
                                 stop_playing();
                                 flag = 0;
                             }
-                        }).setIcon(android.R.drawable.ic_dialog_alert)
+                        })
+                        .setNegativeButton("Send Email", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                sendEmail();
+                                stop_playing();
+                                flag = 0;
+                            }
+                        })
+                        .setIcon(android.R.drawable.ic_dialog_alert)
                         .show();
                 dig.setOnDismissListener(new DialogInterface.OnDismissListener() {
                     @Override
@@ -376,6 +398,45 @@ public class FaceTrackerActivity extends AppCompatActivity {
                         flag = 0;
                     }
                 });
+
+            }
+        });
+    }
+
+    private void sendEmail() {
+//        Gson gson = new Gson();
+//        String json = gson.toJson();
+
+        OkHttpClient client = new OkHttpClient();
+        MediaType mediaType = MediaType.parse("application/json; charset=utf-8");
+        Map<String, String> params = new HashMap<>();
+        params.put("recipient", "riteshmahale15@gmail.com");
+        params.put("subject", "Drowsiness Alert");
+        params.put("body", "Your Driver is Sleeping");
+        String jsonParams = new JSONObject(params).toString();
+        RequestBody body = RequestBody.create(jsonParams, mediaType);
+
+        Request request = new Request.Builder()
+                .url("https://sendmail.pythonanywhere.com/send_email")
+                .post(body)
+                .build();
+
+        client.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                if (response.isSuccessful()) {
+                    // Handle success
+                    // The email was sent successfully
+                } else {
+                    // Handle failure
+                    // There was an error in sending the email
+                }
+            }
+
+            @Override
+            public void onFailure(Call call, IOException e) {
+                // Handle failure
+                // There was a network failure or an error in making the request
             }
         });
     }

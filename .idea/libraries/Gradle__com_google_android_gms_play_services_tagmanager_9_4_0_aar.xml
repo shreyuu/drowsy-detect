@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-tagmanager:9.4.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/12c6ca00b50afff3fb71a3a533bbf305/transformed/jetified-play-services-tagmanager-9.4.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/12c6ca00b50afff3fb71a3a533bbf305/transformed/jetified-play-services-tagmanager-9.4.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/12c6ca00b50afff3fb71a3a533bbf305/transformed/jetified-play-services-tagmanager-9.4.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/12c6ca00b50afff3fb71a3a533bbf305/transformed/jetified-play-services-tagmanager-9.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/12c6ca00b50afff3fb71a3a533bbf305/transformed/jetified-play-services-tagmanager-9.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/12c6ca00b50afff3fb71a3a533bbf305/transformed/jetified-play-services-tagmanager-9.4.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

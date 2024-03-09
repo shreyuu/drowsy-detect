@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-analytics-impl:9.4.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/2ffb1ff7b7220903b9637cd558010fb0/transformed/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/2ffb1ff7b7220903b9637cd558010fb0/transformed/jetified-play-services-analytics-impl-9.4.0/res" />
-      <root url="jar://$PROJECT_DIR$/../../Android_Studio_Projects/EyeWarning/gradle/caches/transforms-3/2ffb1ff7b7220903b9637cd558010fb0/transformed/jetified-play-services-analytics-impl-9.4.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2ffb1ff7b7220903b9637cd558010fb0/transformed/jetified-play-services-analytics-impl-9.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2ffb1ff7b7220903b9637cd558010fb0/transformed/jetified-play-services-analytics-impl-9.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2ffb1ff7b7220903b9637cd558010fb0/transformed/jetified-play-services-analytics-impl-9.4.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
