@@ -23,6 +23,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.CompoundButton;
+//import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -73,11 +74,14 @@ public class FaceTrackerActivity extends AppCompatActivity {
     private String key_2 = "Hardik's project";
     private String key_3 = "hello";
     private String key_4 = "sensitivity";
+//    private EditText emailEditText;
+//    private Button agreeButton;
     private int s_status, s_time;
     private static final int RC_HANDLE_GMS = 9001;
     // permission request codes need to be < 256
     private static final int RC_HANDLE_CAMERA_PERM = 2;
     public int flag = 0;
+//    public String email;
     String currentDate;
     String currentTime;
 
@@ -92,11 +96,15 @@ public class FaceTrackerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_face_tracker);
         tv = findViewById(R.id.textView3);
         tv_1 = findViewById(R.id.textView4);
+//        emailEditText = findViewById(R.id.DynamicMail);
+//        agreeButton = findViewById(R.id.agree);
         mPreview = (CameraSourcePreview) findViewById(R.id.preview);
         mGraphicOverlay = (GraphicOverlay) findViewById(R.id.faceOverlay);
         end_button = (Button) findViewById(R.id.button);
         layout = (LinearLayout) findViewById(R.id.topLayout);
         n_mode = (ToggleButton) findViewById(R.id.toggleButton);
+
+
 
         cResolver = getContentResolver();
         window = getWindow();
@@ -371,6 +379,7 @@ public class FaceTrackerActivity extends AppCompatActivity {
             @Override
             public void run() {
                 play_media();
+                sendEmail();
                 AlertDialog dig;
                 dig = new AlertDialog.Builder(FaceTrackerActivity.this)
                         .setTitle("Drowsiness Alert")
@@ -381,16 +390,17 @@ public class FaceTrackerActivity extends AppCompatActivity {
                                 flag = 0;
                             }
                         })
-                        .setNegativeButton("Send Email", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                sendEmail();
-                                stop_playing();
-                                flag = 0;
-                            }
-                        })
                         .setIcon(android.R.drawable.ic_dialog_alert)
                         .show();
+//                        .setNegativeButton("Send Email", new DialogInterface.OnClickListener() {
+//                            @Override
+//                            public void onClick(DialogInterface dialog, int which) {
+//                                sendEmail();
+//                                stop_playing();
+//                                flag = 0;
+//                            }
+//                        })
+
                 dig.setOnDismissListener(new DialogInterface.OnDismissListener() {
                     @Override
                     public void onDismiss(DialogInterface dialog) {
@@ -410,7 +420,7 @@ public class FaceTrackerActivity extends AppCompatActivity {
         OkHttpClient client = new OkHttpClient();
         MediaType mediaType = MediaType.parse("application/json; charset=utf-8");
         Map<String, String> params = new HashMap<>();
-        params.put("recipient", "riteshmahale15@gmail.com");
+        params.put("recipient", "10cr11divyas@gmail.com");
         params.put("subject", "Drowsiness Alert");
         params.put("body", "Your Driver is Sleeping");
         String jsonParams = new JSONObject(params).toString();

@@ -31,8 +31,8 @@ import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends FragmentActivity implements NavigationView.OnNavigationItemSelectedListener {
     FrameLayout frame;
-    Button agree, disagree;
-    EditText emailEditText;
+//    public Button agree, disagree;
+//    public static EditText emailEditText;
 
     static class EmailData {
         String recipient;
@@ -46,6 +46,9 @@ public class MainActivity extends FragmentActivity implements NavigationView.OnN
         }
     }
 
+//    private EditText emailEditText;
+//    private Button agreeButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,6 +56,10 @@ public class MainActivity extends FragmentActivity implements NavigationView.OnN
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("SafeSteerIO");
         frame = (FrameLayout) findViewById(R.id.frame);
+
+//        emailEditText = findViewById(R.id.DynamicMail);
+//        agree = findViewById(R.id.agree);
+
         getSupportFragmentManager().beginTransaction().replace(R.id.frame, new MonitorMenu()).commit();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

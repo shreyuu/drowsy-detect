@@ -6,10 +6,10 @@
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"
             android:title="Monitor" />
-        <item
-            android:id="@+id/help_page"
-            android:title="Help"
-            android:icon="@drawable/ic_action_help" />
+<!--        <item-->
+<!--            android:id="@+id/help_page"-->
+<!--            android:title="Help"-->
+<!--            android:icon="@drawable/ic_action_help" />-->
 
     </group>
 </menu>
